@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280">
+  <!-- Background -->
+  <rect width="1000" height="280" fill="#ffffff"/>
+
+  <!-- Subtle background pattern -->
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:1" />
+    </linearGradient>
+
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.1"/>
+    </filter>
+
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="11" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#1a1a2e"/>
+    </marker>
+  </defs>
+
+  <!-- Step 1: Green Coffee Beans -->
+  <g>
+    <rect x="20" y="60" width="200" height="160" rx="12" fill="url(#cardGrad)" stroke="#e2e8f0" stroke-width="2" filter="url(#shadow)"/>
+    <text x="120" y="95" font-family="system-ui, sans-serif" font-size="16" fill="#1a1a2e" text-anchor="middle" font-weight="600">Green Coffee Beans</text>
+
+    <!-- Coffee beans illustration -->
+    <g transform="translate(120, 145)">
+      <ellipse cx="-25" cy="-10" rx="18" ry="24" fill="#8B7355" opacity="0.9"/>
+      <path d="M -25 -34 Q -20 -10 -25 14" stroke="#6B5335" stroke-width="2.5" fill="none"/>
+
+      <ellipse cx="0" cy="0" rx="18" ry="24" fill="#9B8365" opacity="0.95"/>
+      <path d="M 0 -24 Q 5 0 0 24" stroke="#6B5335" stroke-width="2.5" fill="none"/>
+
+      <ellipse cx="25" cy="-10" rx="18" ry="24" fill="#8B7355" opacity="0.9"/>
+      <path d="M 25 -34 Q 30 -10 25 14" stroke="#6B5335" stroke-width="2.5" fill="none"/>
+    </g>
+
+    <text x="120" y="200" font-family="system-ui, sans-serif" font-size="13" fill="#64748b" text-anchor="middle">Unroasted beans</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <path d="M 230 140 L 270 140" stroke="#1a1a2e" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 2: Decaffeination -->
+  <g>
+    <rect x="270" y="60" width="200" height="160" rx="12" fill="url(#cardGrad)" stroke="#e2e8f0" stroke-width="2" filter="url(#shadow)"/>
+    <text x="370" y="95" font-family="system-ui, sans-serif" font-size="16" fill="#1a1a2e" text-anchor="middle" font-weight="600">Decaffeination</text>
+
+    <!-- Process illustration - beaker with beans -->
+    <g transform="translate(370, 145)">
+      <path d="M -35 -20 L -35 20 Q -35 35 -20 35 L 20 35 Q 35 35 35 20 L 35 -20 L -35 -20"
+            fill="#E0F2FE" stroke="#0369a1" stroke-width="2.5"/>
+      <circle cx="-15" cy="0" r="8" fill="#8B7355"/>
+      <circle cx="5" cy="5" r="8" fill="#8B7355"/>
+      <circle cx="15" cy="-5" r="8" fill="#8B7355"/>
+
+      <!-- Bubbles -->
+      <circle cx="-20" cy="15" r="3" fill="#60A5FA" opacity="0.5"/>
+      <circle cx="0" cy="-10" r="2.5" fill="#60A5FA" opacity="0.5"/>
+      <circle cx="20" cy="12" r="3.5" fill="#60A5FA" opacity="0.5"/>
+    </g>
+
+    <text x="370" y="193" font-family="system-ui, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">Solvent / Water /</text>
+    <text x="370" y="208" font-family="system-ui, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">Supercritical CO₂</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <path d="M 480 140 L 520 140" stroke="#1a1a2e" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 3: Roasting -->
+  <g>
+    <rect x="520" y="60" width="200" height="160" rx="12" fill="url(#cardGrad)" stroke="#e2e8f0" stroke-width="2" filter="url(#shadow)"/>
+    <text x="620" y="95" font-family="system-ui, sans-serif" font-size="16" fill="#1a1a2e" text-anchor="middle" font-weight="600">Roasting</text>
+
+    <!-- Roaster with flames -->
+    <g transform="translate(620, 145)">
+      <!-- Roaster drum -->
+      <rect x="-30" y="-15" width="60" height="30" rx="4" fill="#6B5335" stroke="#4a3724" stroke-width="2"/>
+
+      <!-- Flames -->
+      <g opacity="0.8">
+        <path d="M -20 20 Q -15 35 -18 40 Q -20 35 -15 30 Q -18 25 -20 20" fill="#FF6B35"/>
+        <path d="M -5 20 Q 0 40 -2 45 Q -5 40 0 32 Q -3 25 -5 20" fill="#FF8C42"/>
+        <path d="M 10 20 Q 15 35 12 40 Q 10 35 15 30 Q 12 25 10 20" fill="#FF6B35"/>
+
+        <!-- Inner flames -->
+        <path d="M -12 25 Q -10 32 -11 35 Q -12 32 -10 28 Q -11 26 -12 25" fill="#FFA500"/>
+        <path d="M 0 25 Q 3 35 2 38 Q 0 35 3 30 Q 1 27 0 25" fill="#FFB52E"/>
+      </g>
+    </g>
+
+    <text x="620" y="200" font-family="system-ui, sans-serif" font-size="13" fill="#64748b" text-anchor="middle">High heat (200°C+)</text>
+  </g>
+
+  <!-- Arrow 3 -->
+  <path d="M 730 140 L 770 140" stroke="#1a1a2e" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 4: Decaf Coffee -->
+  <g>
+    <rect x="770" y="60" width="200" height="160" rx="12" fill="url(#cardGrad)" stroke="#e2e8f0" stroke-width="2" filter="url(#shadow)"/>
+    <text x="870" y="95" font-family="system-ui, sans-serif" font-size="16" fill="#1a1a2e" text-anchor="middle" font-weight="600">Decaf Coffee</text>
+
+    <!-- Coffee cup -->
+    <g transform="translate(870, 140)">
+      <!-- Cup -->
+      <path d="M -30 -10 L -25 25 Q -25 30 -15 30 L 15 30 Q 25 30 25 25 L 30 -10 L -30 -10"
+            fill="#3d2817" stroke="#2a1810" stroke-width="2"/>
+
+      <!-- Coffee surface -->
+      <ellipse cx="0" cy="-10" rx="30" ry="8" fill="#4a3424"/>
+
+      <!-- Steam -->
+      <g opacity="0.4">
+        <path d="M -15 -20 Q -18 -30 -15 -40" stroke="#94a3b8" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <path d="M 0 -20 Q -3 -35 0 -45" stroke="#94a3b8" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <path d="M 15 -20 Q 12 -30 15 -40" stroke="#94a3b8" stroke-width="2" fill="none" stroke-linecap="round"/>
+      </g>
+
+      <!-- Handle -->
+      <path d="M 30 0 Q 45 0 45 15 Q 45 25 35 25" stroke="#2a1810" stroke-width="2.5" fill="none"/>
+    </g>
+
+    <text x="870" y="200" font-family="system-ui, sans-serif" font-size="13" fill="#64748b" text-anchor="middle">97%+ caffeine removed</text>
+  </g>
+
+  <!-- Bottom label -->
+  <text x="500" y="260" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle" font-style="italic">All decaffeination occurs before roasting</text>
+</svg>
