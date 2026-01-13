@@ -1,14 +1,18 @@
 # Miles Christou - Portfolio Website
 
+🌐 **Live Site:** https://portfolio-smoky-kappa-53.vercel.app/
+
 A professional portfolio website built with React, Vite, Tailwind CSS, and React Router v6.
 
 ## Features
 
 - Clean, professional design with chemistry-inspired color palette
 - Fully responsive (mobile, tablet, desktop)
-- SEO-optimized with custom meta tags
+- SEO-optimized with custom meta tags and structured data (FAQ schema, image schema)
+- Technical blog posts with scientific citations and molecular diagrams
+- Project showcase featuring deployed web applications
 - Fast build and development with Vite
-- Ready for Vercel deployment
+- Deployed on Vercel
 
 ## Project Structure
 
@@ -24,8 +28,11 @@ portfolio/
 │   │   ├── Home.jsx         # Landing page
 │   │   ├── About.jsx        # Background & skills
 │   │   ├── Projects.jsx     # Project showcase
-│   │   ├── Blog.jsx         # Blog (empty, ready for content)
-│   │   └── Contact.jsx      # Contact information
+│   │   ├── Blog.jsx         # Blog listing page
+│   │   ├── Contact.jsx      # Contact information
+│   │   └── blog/            # Individual blog posts
+│   │       ├── decaf-coffee-science.jsx
+│   │       └── what-are-terpenes.jsx
 │   ├── App.jsx              # React Router setup
 │   ├── main.jsx
 │   └── index.css            # Tailwind configuration
