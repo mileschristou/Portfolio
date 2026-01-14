@@ -4,6 +4,13 @@ import SEO from '../components/SEO';
 const Blog = () => {
   const posts = [
     {
+      title: 'What Are PFAS? The Science Behind Forever Chemicals',
+      excerpt: 'PFAS have been found in rainwater worldwide and in the blood of 98% of Americans. Learn what these forever chemicals are, why they persist, and what the science says about health risks—from a chemist who analysed them in the lab.',
+      date: 'January 14, 2026',
+      readTime: '12 min read',
+      slug: 'what-are-pfas'
+    },
+    {
       title: 'What Are Terpenes? The Chemistry Behind How Things Smell',
       excerpt: 'From pine forests to citrus peels, terpenes create the smells around you. Learn what terpenes are, how they work, and why limonene smells like oranges while its mirror image smells like lemons.',
       date: 'January 13, 2026',

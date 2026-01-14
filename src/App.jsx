@@ -7,6 +7,7 @@ import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import DecafCoffeeScience from './pages/blog/decaf-coffee-science';
 import WhatAreTerpenes from './pages/blog/what-are-terpenes';
+import WhatArePFAS from './pages/blog/what-are-pfas';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="blog" element={<Blog />} />
           <Route path="blog/decaf-coffee-science" element={<DecafCoffeeScience />} />
           <Route path="blog/what-are-terpenes" element={<WhatAreTerpenes />} />
+          <Route path="blog/what-are-pfas" element={<WhatArePFAS />} />
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>

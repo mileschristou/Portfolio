@@ -1,6 +1,11 @@
 import { Link } from 'react-router-dom';
 import SEO from '../../components/SEO';
 
+/*
+META DESCRIPTION:
+Learn how coffee is decaffeinated using Swiss Water, CO₂, and solvent methods. Chemistry-backed guide to decaf processes, safety, and flavour.
+*/
+
 const DecafCoffeeScience = () => {
   return (
     <>
@@ -8,6 +13,26 @@ const DecafCoffeeScience = () => {
         title="How is Coffee Decaffeinated? The Science Behind Your Decaf"
         description="Learn how coffee is decaffeinated using Swiss Water, CO₂, and solvent methods. Chemistry-backed guide to decaf processes, safety, and flavour."
       />
+
+      {/* Article Schema for SEO */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "How is Coffee Decaffeinated? The Science Behind Your Decaf",
+          "description": "Learn how coffee is decaffeinated using Swiss Water, CO₂, and solvent methods. Chemistry-backed guide to decaf processes, safety, and flavour.",
+          "author": {
+            "@type": "Person",
+            "name": "Miles Christou",
+            "jobTitle": "Chemistry Graduate"
+          },
+          "datePublished": "2026-01-11",
+          "dateModified": "2026-01-11",
+          "keywords": ["decaf coffee", "decaffeination", "Swiss Water Process", "supercritical CO2", "caffeine removal", "coffee chemistry"],
+          "articleSection": "Chemistry",
+          "wordCount": 2200
+        })}
+      </script>
 
       {/* FAQ Schema for SEO */}
       <script type="application/ld+json">

@@ -14,6 +14,26 @@ const WhatAreTerpenes = () => {
         description="Learn what terpenes are, how they create smells, and why they matter. From limonene to pinene, discover the chemistry behind scents in nature."
       />
 
+      {/* Article Schema for SEO */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "What Are Terpenes? The Chemistry Behind How Things Smell",
+          "description": "Learn what terpenes are, how they create smells, and why they matter. From limonene to pinene, discover the chemistry behind scents in nature.",
+          "author": {
+            "@type": "Person",
+            "name": "Miles Christou",
+            "jobTitle": "Chemistry Graduate"
+          },
+          "datePublished": "2026-01-13",
+          "dateModified": "2026-01-14",
+          "keywords": ["terpenes", "terpenoids", "limonene", "pinene", "linalool", "essential oils", "olfactory chemistry"],
+          "articleSection": "Chemistry",
+          "wordCount": 2400
+        })}
+      </script>
+
       {/* FAQ Schema for SEO */}
       <script type="application/ld+json">
         {JSON.stringify({
