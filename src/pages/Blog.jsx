@@ -4,6 +4,13 @@ import SEO from '../components/SEO';
 const Blog = () => {
   const posts = [
     {
+      title: 'How Do Soaps Work? The Chemistry of Surfactants and Cleaning',
+      excerpt: 'From saponification to micelle formation, discover how soap molecules use their split personality to clean. Learn about surfactants, why hard water causes problems, and the chemistry that makes your hands clean.',
+      date: 'February 5, 2026',
+      readTime: '14 min read',
+      slug: 'how-do-soaps-work'
+    },
+    {
       title: 'What Are PFAS? The Science Behind Forever Chemicals',
       excerpt: 'PFAS have been found in rainwater worldwide and in the blood of 98% of Americans. Learn what these forever chemicals are, why they persist, and what the science says about health risks—from a chemist who analysed them in the lab.',
       date: 'January 14, 2026',
