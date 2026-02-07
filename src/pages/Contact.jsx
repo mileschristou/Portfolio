@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       <SEO
         title="Contact | Miles Christou"
-        description="Get in touch with Miles Christou for analytical chemistry opportunities, scientific writing projects, or collaboration inquiries."
+        description="Get in touch with Miles Christou for chemistry opportunities, laboratory roles, scientific writing projects, or collaboration inquiries."
       />
 
       <div className="py-16 px-4">
@@ -15,8 +15,8 @@ const Contact = () => {
             <h1 className="text-4xl font-bold text-gray-900 mb-4">Contact</h1>
             <div className="w-20 h-1 bg-primary-600 mb-6"></div>
             <p className="text-lg text-gray-700">
-              I'm interested in analytical chemistry roles, scientific writing positions,
-              and collaborative projects. Let's connect!
+              I'm interested in chemistry roles across analytical work, quality control,
+              product development, scientific communication, and collaborative projects. Let's connect!
             </p>
           </div>
 
@@ -80,11 +80,11 @@ const Contact = () => {
             </h2>
             <div className="space-y-3">
               {[
-                'Analytical Chemistry Positions (GC-MS, HPLC-MS, PFAS Analysis)',
+                'Laboratory Chemistry & Analytical Roles',
+                'Quality Control & Product Development',
+                'Formulation Chemistry & Testing',
                 'Scientific Writing & Technical Communication',
-                'Method Development & Validation Projects',
-                'Research & Development Roles',
-                'Educational Content Creation'
+                'Research & Development Projects'
               ].map((opportunity, index) => (
                 <div key={index} className="flex items-start">
                   <svg

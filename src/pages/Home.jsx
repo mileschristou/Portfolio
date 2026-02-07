@@ -5,8 +5,8 @@ const Home = () => {
   return (
     <>
       <SEO
-        title="Miles Christou | Chemistry Graduate & Analytical Chemist"
-        description="Portfolio of Miles Christou, a First Class Chemistry graduate from Newcastle University combining analytical chemistry with web development."
+        title="Miles Christou | Chemistry Graduate"
+        description="Portfolio of Miles Christou, a First Class Chemistry graduate from Newcastle University with experience in laboratory work, analytical chemistry, and web development."
       />
 
       <div className="min-h-[calc(100vh-4rem)]">
@@ -34,8 +34,8 @@ const Home = () => {
 
             <p className="text-lg text-gray-700 mb-10 max-w-2xl leading-relaxed">
               I'm Miles, a First Class Chemistry graduate from Newcastle University with
-              a passion for practical and analytical chemistry. I enjoy building digital
-              projects that allow me to combine my scientific background with web development.
+              hands-on laboratory experience and a passion for practical chemistry. I enjoy
+              building digital projects that combine my scientific background with web development.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -63,13 +63,13 @@ const Home = () => {
             </h2>
 
             <div className="space-y-12">
-              {/* Analytical Chemistry */}
+              {/* Laboratory Chemistry */}
               <div className="border-l-4 border-gray-900 pl-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 font-mono">
-                  Analytical Chemistry
+                  Laboratory Chemistry
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Training in advanced analytical techniques and method development for precision chemical analysis.
+                  Practical experience in analytical techniques, quality control, and method development across various chemistry applications.
                 </p>
               </div>
 
@@ -103,7 +103,7 @@ const Home = () => {
               Interested in working together?
             </h2>
             <p className="text-lg text-gray-300 mb-8">
-              Open to analytical chemistry roles and collaborative projects.
+              Open to chemistry roles, laboratory positions, and collaborative projects.
             </p>
             <Link
               to="/contact"

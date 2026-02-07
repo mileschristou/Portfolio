@@ -2,12 +2,12 @@ import SEO from '../components/SEO';
 
 const About = () => {
   const skills = {
-    'Analytical Chemistry': [
+    'Laboratory & Analytical Chemistry': [
       'Gas Chromatography-Mass Spectrometry (GC-MS)',
       'High-Performance Liquid Chromatography-Mass Spectrometry (HPLC-MS)',
       'PFAS Method Development',
       'Sample Preparation & Analysis',
-      'Quality Control & Validation'
+      'Quality Control & Data Analysis'
     ],
     'Scientific Writing': [
       'Technical Documentation',
@@ -27,7 +27,7 @@ const About = () => {
     <>
       <SEO
         title="About | Miles Christou"
-        description="Learn about Miles Christou's background in analytical chemistry, expertise in GC-MS and HPLC-MS, and passion for scientific writing."
+        description="Chemistry graduate with experience in analytical chemistry, laboratory work, and scientific communication. Skilled in GC-MS, HPLC-MS, and practical problem-solving."
       />
 
       <div className="py-16 px-4">
@@ -43,22 +43,22 @@ const About = () => {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">Background</h2>
             <div className="prose prose-lg text-gray-700 space-y-4">
               <p>
-                I am a chemistry graduate with a strong foundation in analytical chemistry
-                and a passion for scientific communication. My expertise lies in advanced
-                analytical techniques, particularly in gas and liquid chromatography coupled
-                with mass spectrometry.
+                I am a chemistry graduate with hands-on experience across analytical chemistry,
+                method development, and scientific communication. My background spans advanced
+                analytical techniques including gas and liquid chromatography-mass spectrometry,
+                with a strong foundation in understanding chemical formulations and product chemistry.
               </p>
               <p>
-                Throughout my academic and professional journey, I have developed specialized
-                skills in PFAS (Per- and Polyfluoroalkyl Substances) method development,
-                contributing to important environmental analysis work. I combine technical
-                expertise with clear scientific writing to communicate complex findings
-                effectively.
+                Throughout my academic journey, I have developed practical skills in laboratory
+                work, quality control, and data analysis. During my analytical chemistry modules,
+                I worked on PFAS (Per- and Polyfluoroalkyl Substances) method development for
+                environmental samples, combining analytical rigor with problem-solving in real-world applications.
               </p>
               <p>
-                Beyond traditional chemistry work, I have cultivated an interest in web
-                development, creating educational tools that bridge the gap between complex
-                scientific concepts and accessible learning resources.
+                I combine technical chemistry expertise with clear scientific writing, translating
+                complex concepts into accessible content. Beyond traditional lab work, I have an
+                interest in web development, creating tools that make scientific concepts more
+                approachable.
               </p>
             </div>
           </section>
@@ -93,17 +93,18 @@ const About = () => {
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="bg-primary-50 border border-primary-200 rounded-lg p-6">
-                <h3 className="font-semibold text-primary-900 mb-2">Analytical Chemistry Roles</h3>
+                <h3 className="font-semibold text-primary-900 mb-2">Chemistry & Laboratory Roles</h3>
                 <p className="text-primary-800">
-                  Laboratory positions focusing on advanced analytical techniques,
-                  method development, and environmental analysis.
+                  Analytical chemistry, quality control, product development, formulation,
+                  or R&D positions where I can apply practical chemistry skills and
+                  problem-solving.
                 </p>
               </div>
               <div className="bg-primary-50 border border-primary-200 rounded-lg p-6">
-                <h3 className="font-semibold text-primary-900 mb-2">Scientific Writing Positions</h3>
+                <h3 className="font-semibold text-primary-900 mb-2">Scientific Communication</h3>
                 <p className="text-primary-800">
-                  Roles that leverage my ability to communicate complex scientific
-                  concepts clearly and effectively to diverse audiences.
+                  Roles that leverage my ability to translate complex scientific
+                  concepts into clear, accessible content for diverse audiences.
                 </p>
               </div>
             </div>
