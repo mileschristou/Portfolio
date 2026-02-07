@@ -42,6 +42,13 @@
 
   <!-- Blog Posts -->
   <url>
+    <loc>https://mileschristou.co.uk/blog/maillard-reaction-cooking</loc>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
     <loc>https://mileschristou.co.uk/blog/how-do-soaps-work</loc>
     <lastmod>2026-02-05</lastmod>
     <changefreq>monthly</changefreq>

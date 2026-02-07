@@ -4,6 +4,13 @@ import SEO from '../components/SEO';
 const Blog = () => {
   const posts = [
     {
+      title: 'The Maillard Reaction: The Chemistry Behind Perfectly Browned Food',
+      excerpt: 'Discover the chemistry behind perfectly seared steaks, golden bread crusts, and rich coffee flavor. Learn how the Maillard reaction transforms your cooking through amino acids, sugars, and heat.',
+      date: 'February 7, 2026',
+      readTime: '9 min read',
+      slug: 'maillard-reaction-cooking'
+    },
+    {
       title: 'How Do Soaps Work? The Chemistry of Surfactants and Cleaning',
       excerpt: 'From saponification to micelle formation, discover how soap molecules use their split personality to clean. Learn about surfactants, why hard water causes problems, and the chemistry that makes your hands clean.',
       date: 'February 5, 2026',
