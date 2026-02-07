@@ -77,7 +77,7 @@ const MaillardReactionCooking = () => {
               "name": "Does the Maillard reaction make food less healthy?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "The Maillard reaction itself creates flavorful compounds that are generally safe. However, extreme browning or charring can produce acrylamide (in high-carbohydrate foods) and advanced glycation end products (AGEs). Moderate browning—golden-brown crusts rather than blackened surfaces—is considered safe and desirable. The key is avoiding burnt, charred food while achieving proper browning."
+                "text": "The Maillard reaction creates flavorful compounds that are generally safe. Cooking above 120°C can produce acrylamide (mainly in starchy foods like potatoes and bread), though moderate browning—golden to dark brown crusts—is fine. The goal is achieving that beautiful brown color without going into charred, blackened territory. A perfectly seared steak or golden bread crust? Great. Burnt edges? Trim them off."
               }
             },
             {
@@ -408,7 +408,7 @@ const MaillardReactionCooking = () => {
               <div className="border-l-4 border-gray-400 pl-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Does the Maillard reaction make food less healthy?</h3>
                 <p className="text-gray-700">
-                  Moderate Maillard browning is generally considered safe and creates desirable flavors. However, extreme browning or charring can produce compounds like acrylamide (particularly in high-carbohydrate foods like potatoes cooked at very high temperatures) and advanced glycation end products (AGEs). The key is achieving golden to dark brown colors rather than blackened, charred surfaces. A well-seared steak with a brown crust is fine; heavily charred, burnt food should be avoided. As with most things, moderation is sensible.
+                  Moderate Maillard browning creates those delicious flavors we're after and is perfectly fine. Cooking above 120°C (which you're doing whenever you roast, grill, or pan-fry) can produce acrylamide, particularly in starchy foods like potatoes, bread, and baked goods. But here's the thing: aim for golden to dark brown, not black. A well-seared steak with a rich brown crust? Perfect. Crispy golden fries? Great. Burnt, blackened edges? Not ideal—just trim those off. You're looking for color and flavor, not char.
                 </p>
               </div>
 
