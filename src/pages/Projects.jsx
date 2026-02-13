@@ -3,7 +3,7 @@ import SEO from '../components/SEO';
 const Projects = () => {
   const projects = [
     {
-      title: 'SwapTheStyle (HomeMockups)',
+      title: 'HomeMockups',
       description: 'AI-powered interior and exterior design tool that transforms any space instantly with 58+ design styles. Upload photos of kitchens, living rooms, bedrooms, bathrooms, gardens, or patios and receive professional AI-generated redesigns in seconds. Built with Next.js and React, integrating advanced AI processing for instant design generation across multiple aesthetic categories.',
       technologies: ['Next.js', 'React', 'AI', 'Image Processing', 'Design'],
       link: 'https://homemockups.com'
@@ -41,7 +41,7 @@ const Projects = () => {
     <>
       <SEO
         title="Projects | Miles Christou"
-        description="Explore Miles Christou's web applications including AI-powered design tools, gaming guides, and chemistry educational resources - from SwapTheStyle interior design to Ironman Meta and NMR spectroscopy tools."
+        description="Explore Miles Christou's web applications including AI-powered design tools, gaming guides, and chemistry educational resources - from HomeMockups interior design to Ironman Meta and NMR spectroscopy tools."
       />
 
       <div className="py-20 px-4">
