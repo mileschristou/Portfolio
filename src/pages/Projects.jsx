@@ -3,6 +3,19 @@ import SEO from '../components/SEO';
 const Projects = () => {
   const projects = [
     {
+      title: 'SwapTheStyle (HomeMockups)',
+      description: 'AI-powered interior and exterior design tool that transforms any space instantly with 58+ design styles. Upload photos of kitchens, living rooms, bedrooms, bathrooms, gardens, or patios and receive professional AI-generated redesigns in seconds. Built with Next.js and React, integrating advanced AI processing for instant design generation across multiple aesthetic categories.',
+      technologies: ['Next.js', 'React', 'AI', 'Image Processing', 'Design'],
+      link: 'https://homemockups.com'
+    },
+    {
+      title: 'Ironman Meta',
+      description: 'Practical, opinionated guides for Old School RuneScape Ironman mode players. Features stage-by-stage progression guides from Tutorial Island through end-game, ironman-specific skilling methods, supply acquisition strategies, and in-depth coverage of specific regions and activities. Provides clear, actionable advice grounded in practical experience rather than wiki-style data dumps.',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Content Management'],
+      github: 'https://github.com/mileschristou/ironman-meta',
+      link: 'https://ironmanmeta.com'
+    },
+    {
       title: 'Rust Server Tracker',
       description: 'Full-stack web application for tracking Rust game server wipes and statistics. Features real-time server data from BattleMetrics API, AI-powered server search using Anthropic, advanced filtering by player count, region, and server type, and automated wipe detection with historical tracking. Built with Node.js/Express backend, React frontend, and PostgreSQL database with scheduled data scraping.',
       technologies: ['React', 'Node.js', 'Express', 'PostgreSQL', 'AI', 'BattleMetrics API'],
@@ -28,7 +41,7 @@ const Projects = () => {
     <>
       <SEO
         title="Projects | Miles Christou"
-        description="Explore Miles Christou's chemistry web applications including NMR Peak Directory, AI d-Electron Counter, and Rustalyser - educational tools for chemistry students and researchers."
+        description="Explore Miles Christou's web applications including AI-powered design tools, gaming guides, and chemistry educational resources - from SwapTheStyle interior design to Ironman Meta and NMR spectroscopy tools."
       />
 
       <div className="py-20 px-4">
@@ -39,7 +52,7 @@ const Projects = () => {
               Projects
             </h1>
             <p className="text-lg text-gray-700 max-w-2xl">
-              A collection of web applications and tools combining chemistry with programming.
+              A collection of web applications spanning AI-powered design tools, gaming resources, and chemistry education.
             </p>
           </div>
 
