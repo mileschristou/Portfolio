@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -12,12 +14,12 @@ const Footer = () => {
           </div>
 
           <div className="flex gap-6">
-            <a href="/about" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
+            <Link href="/about" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
               About
-            </a>
-            <a href="/projects" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
+            </Link>
+            <Link href="/projects" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
               Projects
-            </a>
+            </Link>
             <a
               href="https://www.linkedin.com/in/miles-christou-742909333/"
               target="_blank"

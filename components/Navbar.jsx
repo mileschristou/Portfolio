@@ -1,16 +1,25 @@
+'use client';
+
 import { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   const navLinks = [
-    { to: '/', label: 'Home' },
-    { to: '/about', label: 'About' },
-    { to: '/projects', label: 'Projects' },
-    { to: '/blog', label: 'Blog' },
-    { to: '/contact', label: 'Contact' },
+    { href: '/', label: 'Home' },
+    { href: '/about', label: 'About' },
+    { href: '/projects', label: 'Projects' },
+    { href: '/blog', label: 'Blog' },
+    { href: '/contact', label: 'Contact' },
   ];
+
+  const isActive = (href) => {
+    if (href === '/') return pathname === '/';
+    return pathname.startsWith(href);
+  };
 
   return (
     <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
@@ -18,7 +27,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo/Name */}
           <Link
-            to="/"
+            href="/"
             className="text-lg font-bold text-gray-900 hover:text-gray-700 transition-colors font-mono"
           >
             MC
@@ -27,19 +36,17 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
             {navLinks.map((link) => (
-              <NavLink
-                key={link.to}
-                to={link.to}
-                className={({ isActive }) =>
-                  `text-sm font-medium transition-colors ${
-                    isActive
-                      ? 'text-gray-900 underline underline-offset-4'
-                      : 'text-gray-600 hover:text-gray-900'
-                  }`
-                }
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`text-sm font-medium transition-colors ${
+                  isActive(link.href)
+                    ? 'text-gray-900 underline underline-offset-4'
+                    : 'text-gray-600 hover:text-gray-900'
+                }`}
               >
                 {link.label}
-              </NavLink>
+              </Link>
             ))}
           </div>
 
@@ -73,20 +80,18 @@ const Navbar = () => {
         <div className="md:hidden border-t border-gray-200 bg-white">
           <div className="px-4 py-4 space-y-3">
             {navLinks.map((link) => (
-              <NavLink
-                key={link.to}
-                to={link.to}
+              <Link
+                key={link.href}
+                href={link.href}
                 onClick={() => setIsMenuOpen(false)}
-                className={({ isActive }) =>
-                  `block text-base font-medium transition-colors ${
-                    isActive
-                      ? 'text-gray-900'
-                      : 'text-gray-600 hover:text-gray-900'
-                  }`
-                }
+                className={`block text-base font-medium transition-colors ${
+                  isActive(link.href)
+                    ? 'text-gray-900'
+                    : 'text-gray-600 hover:text-gray-900'
+                }`}
               >
                 {link.label}
-              </NavLink>
+              </Link>
             ))}
           </div>
         </div>
