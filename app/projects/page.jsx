@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Projects',
-  description: "Explore Miles Christou's web applications including AI-powered design tools, gaming guides, and chemistry educational resources - from HomeMockups interior design to Ironman Meta and NMR spectroscopy tools.",
+  description: "Explore Miles Christou's web applications including AI-powered design tools, gaming guides, chemistry educational resources, and computer vision tools - from HomeMockups interior design to facial action unit analysis.",
 };
 
 const projects = [
@@ -30,6 +30,13 @@ const projects = [
     technologies: ['React', 'JavaScript', 'AI', 'NMR Spectroscopy', 'Data Visualization'],
     github: 'https://github.com/mileschristou/NMR-Peaks-Directory',
     link: 'https://nmr-peaks-directory-5ojd0xvex-miles-projects-89a76c0f.vercel.app/'
+  },
+  {
+    title: 'AU Intensity Estimator',
+    description: 'A browser-based tool for detecting and analysing facial action units (AUs) using a ResNet-18 neural network trained on the DISFA dataset. Supports webcam, image, and video file input with real-time AU intensity results and CSV/XLSX export. Runs entirely client-side with support for both CPU and WebGPU processing modes.',
+    technologies: ['JavaScript', 'Machine Learning', 'WebGPU', 'ResNet-18', 'Computer Vision'],
+    github: 'https://github.com/mileschristou/au-intensity-estimator-web',
+    link: 'https://mileschristou.github.io/au-intensity-estimator-web/'
   },
   {
     title: 'AI d-Electron Counter',
