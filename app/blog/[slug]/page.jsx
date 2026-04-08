@@ -7,6 +7,7 @@ import WhatAreTerpenesContent from '../../../components/blog/what-are-terpenes';
 import WhatArePFASContent from '../../../components/blog/what-are-pfas';
 import HowDoSoapsWorkContent from '../../../components/blog/how-do-soaps-work';
 import MaillardReactionCookingContent from '../../../components/blog/maillard-reaction-cooking';
+import AnalyticalMethodsContent from '../../../components/blog/analytical-methods-icp-ic-gc';
 
 const contentComponents = {
   'decaf-coffee-science': DecafCoffeeScienceContent,
@@ -14,6 +15,7 @@ const contentComponents = {
   'what-are-pfas': WhatArePFASContent,
   'how-do-soaps-work': HowDoSoapsWorkContent,
   'maillard-reaction-cooking': MaillardReactionCookingContent,
+  'analytical-methods-icp-ic-gc': AnalyticalMethodsContent,
 };
 
 export function generateStaticParams() {
